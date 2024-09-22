@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-custom grid grid-rows-12 grid-cols-12 gap-4 w-[100vw] h-[100vh]">
+
+    <!-- Left Section: Reviewers -->
+    <div class="col-span-5 row-start-3 row-end-11 p-4 ml-10">
+        <div class="grid grid-rows-inside h-full">
+            <!-- Star Icon -->
+            <h1 class="flex items-center justify-center text-[26px] rounded-full bg-[#F5C044] w-[40px] h-[40px]">⭐️</h1>
+
+            <!-- Title -->
+            <h1 class="text-[2.25rem] text-[#18181B] font-bold mb-3 mt-3">Reviewers</h1>
+
+            <!-- Description Paragraph -->
+            <p class="text-[1.25rem] text-[#52525A] leading-8 mb-4">Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</p>
+
+            <!-- Checklist -->
+            <ul class="text-[0.875rem] text-[#52525A] mt-4 font-medium space-y-3">
+                <li class="flex items-start">
+                    <img src="Done_ring_round_fill.svg" alt="Checklist" class="mr-2" />Checklist to Review an Academic Paper
+                </li>
+                <li class="flex items-start">
+                    <img src="Done_ring_round_fill.svg" alt="Checklist" class="mr-2" />Peer Review Checklist
+                </li>
+                <li class="flex items-start">
+                    <img src="Done_ring_round_fill.svg" alt="Checklist" class="mr-2" />Checklist for Editors, Reviewers, and Authors of SPIE Journals
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right Section: Reviews -->
+    <div class="grid grid-cols-4 grid-rows-2 gap-4 col-start-7 col-end-12 row-start-3 row-end-12 p-4">
+
+        <!-- Review 01 -->
+        <div id="review-01" class="bg-white p-4 rounded shadow col-start-2 col-end-4 h-40">
+            <div class="flex items-center mb-2">
+                <img src="google-testimonial.png" alt="Testimonial from Google" class="h-7">
+                <div class="flex ml-4 items-center">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill_gray.svg" alt="Star rating" class="h-6">
+                </div>
+            </div>
+            <h2 class="font-bold text-[18px] mb-2">Samantha Lee</h2>
+            <p class="text-[#52525A] text-[0.875rem]">The checklist ensures that the review process is thorough.</p>
+        </div>
+
+        <!-- Review 02 -->
+        <div id="review-02" class="bg-white p-4 rounded shadow col-span-2 h-40">
+            <div class="flex items-center mb-2">
+                <img src="meta-testimonial.png" alt="Testimonial from Meta" class="h-7">
+                <div class="flex ml-4 items-center">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                    <img src="Star_fill.svg" alt="Star rating" class="h-6">
+                </div>
+            </div>
+            <h2 class="font-bold text-[18px] mb-2">Rachel Patel</h2>
+            <p class="text-[#52525A] text-[0.875rem]">I highly recommend the Whitecream Business Description.</p>
+        </div>
+
+    </div>
+</body>
+</html>
